@@ -9,10 +9,10 @@
 
 name: New Hire
 policies:
-  - path: ../lib/dns-resolvers.policies.yml
   - path: ../lib/macos-device-health.policies.yml
   - path: ../lib/windows-device-health.policies.yml
   - path: ../lib/linux-device-health.policies.yml
+  - path: ../lib/dns-resolvers.policies.yml
 queries:
   - path: ../lib/collect-usb-devices.queries.yml
   - path: ../lib/collect-failed-login-attempts.queries.yml
