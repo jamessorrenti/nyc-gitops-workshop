@@ -1,6 +1,6 @@
 # Teams are available in Fleet Premium. 
 
-# This file updates policies, queries, agent options, controls, and software for hosts assigned to the "Engineering" team.
+# This file updates policies, queries, agent options, controls, and software for hosts assigned to the "New Hire" team.
 
 # To add another team, create a new file in the teams/ directory and copy and paste the contents from this file.
 # Update the secret in the new file, then create the corresponding secret in GitHub Actions secrets. 
@@ -9,6 +9,7 @@
 
 name: New Hire
 policies:
+  - path: ../lib/dns-resolvers.policies.yml
   - path: ../lib/macos-device-health.policies.yml
   - path: ../lib/windows-device-health.policies.yml
   - path: ../lib/linux-device-health.policies.yml
