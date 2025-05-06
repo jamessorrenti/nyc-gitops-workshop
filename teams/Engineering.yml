@@ -21,10 +21,10 @@ controls:
   macos_settings:
     custom_settings:
       - path: ../lib/passcode-settings-ddm.json
-      - path: ../lib/set-wallpaper.ps1
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
+    - path: ../lib/set-wallpaper.ps1
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
